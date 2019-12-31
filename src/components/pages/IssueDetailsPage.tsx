@@ -41,7 +41,7 @@ export const IssueDetailsPage = () => {
 
         <ul>{
           (comments &&
-            <IssueComments />
+            <IssueComments comments={comments}/>
           ) || (loading &&
             <div className="issue-detail--loading">
               <p>Loading comments...</p>
