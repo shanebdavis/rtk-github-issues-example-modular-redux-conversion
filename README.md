@@ -1,3 +1,23 @@
+
+# GitHub Issues Browser (Modular Redux version)
+
+This is an alternate implementation of the Redux-Toolkit advanced tutorial. This version only depends on redux directly. No additional third-party libraries are needed (redux-toolkit and redux-thunk were removed). The result was a *dramatic* simpliciation of the code. The key is modular design. You can read more about it in my medium article: 
+
+- [Modular Redux - a Design Pattern for Mastering Scalable Application State](https://medium.com/p/f438838e5102)
+
+- redux-toolkit
+  - https://github.com/reduxjs/rtk-github-issues-example
+  - 1169 lines
+  - 22 files
+
+- modular-redux
+  - 685 lines
+  - 23 files
+
+- hooks-for-redux
+
+# react-scripts doc
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
