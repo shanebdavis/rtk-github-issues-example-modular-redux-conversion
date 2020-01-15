@@ -3,7 +3,7 @@ import { Issue } from 'api/githubAPI'
 
 interface CurrentDisplay { displayType: 'issues' | 'comments', issue?: Issue }
 interface CurrentRepo { org: string, repo: string }
-type IssuesDisplayState = { page: number } & CurrentDisplay & CurrentRepo
+export type IssuesDisplayState = { page: number } & CurrentDisplay & CurrentRepo
 
 let initialState: IssuesDisplayState = {
   org: 'rails',
@@ -27,3 +27,5 @@ export const [
     showIssuesList: (state) => Object.assign({}, state, { displayType: 'issues', issue: null }),
   }
 )
+
+setTimeout(() => setCurrentPage(1), 0)

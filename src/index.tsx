@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { setCurrentPage } from 'redux/issuesDisplay'
 import './index.css'
 
 const render = () => {
@@ -9,6 +8,5 @@ const render = () => {
 }
 
 render()
-setCurrentPage(1)
 
 if (module.hot) module.hot.accept('./components/App', render)

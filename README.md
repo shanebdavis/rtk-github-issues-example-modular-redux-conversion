@@ -15,6 +15,9 @@ This is an alternate implementation of the Redux-Toolkit advanced tutorial. This
   - 20 redux-related inter-file dependencies
 
 - hooks-for-redux
+  - 620 lines of code
+  - 19 redux-related inter-file dependencies
+
 
 # react-scripts doc
 
